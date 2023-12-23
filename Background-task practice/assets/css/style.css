@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .image{
+    position:relative;
+    width: 600px;
+    height: 400px;
+}
+
+.box .cover{
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top:0;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.box .image:hover .cover{
+    opacity: 0;
+}
+
+
+.box .image jpg{
+    width: 100%;
+    height: 100%;
+}
+
+#product{
+    background-color:rgb(193, 169, 125);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product .products {
+    display: flex;
+  }
+  
+  #product .card {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-left: 20px;
+  }
+  
+  #product .card .card-image {
+    width: 300px;
+    height: 250px;
+  }
+  
+  #product .card .card-image img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  #product .card-body .product-detail {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #product .card-body .colors .item {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  #product .card-body .colors .item:nth-child(1) {
+    background-color: #ff7c63;
+  }
+  
+  #product .card-body .colors .item:nth-child(2) {
+    background-color: #57bfbf;
+  }
+  
+  #product .card-body .colors .item:nth-child(3) {
+    background-color: #ffb756;
+  }
+  
+  #product .card-body .colors {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+  
+  #product .card-body .price-area {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+  }
+  
+  #product .card-body .price-area a {
+    border: 2px solid brown;
+    padding: 6px 25px 6px 25px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  #product .card-body .price-area h3 {
+    margin-top: 3px;
+    font-size: 25px;
+    color: brown;
+  }
+
